@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Products</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/dropdown.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header id="header" class="">
+			<!-- navibar logo -->
+			<nav class="nav-top nav">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+							<div class="cover-icon-left">
+								<a href=""><span class="glyphicon glyphicon glyphicon-user icon" aria-hidden="true"></span></a>
+								<a href=""><span class="glyphicon glyphicon-search icon" aria-hidden="true"></span></a>
+							</div>
+
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<a href="../index.html"><div class="logo-shop">THE ICONIC</div></a>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+							<div class="cover-icon-right">
+								<a href=""><span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+								<a href=""><span class="icon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- navibar menu -->
+			<nav class="navbar-menu nav">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<ul class="">
+								<li class="active"><a href="#">CLOTHING</a></li>
+								<li><a href="#">SHOES</a></li>
+								<li><a href="#">ACCESSORIES</a></li>
+								<li><a href="#">SPORT</a></li>
+								<li><a href="#">BRANDS</a></li>
+								<li><a href="#">PREMIUM</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main id="main-page">
+
+			<div class="products">
+				<div class="container">
+					<div class="row catalog">
+						<div class="col-xs-12 col-sm-10 col-md-3 col-lg-3">
+							<ul class=" breadcrumb">
+								<li><a href="">WOMEN</a></li>
+								<li><a href="">CLOTHES</a></li>
+								<li><a href="">SKIRT</a></li>
+							</ul>
+						</div>
+						<div class="hidden-xs hidden-sm col-md-7 col-lg-7">
+							<div class="quantity">700 items</div>
+						</div>
+						<div class="hidden-xs hidden-sm col-md-2 col-lg-2 arrange">
+							<div class="dropdown" id="dropdown-arrange">
+								<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Popularity
+								</button>
+								<ul class="dropdown-menu">
+									<li class="selected" ><a href="#">Popularity</a></li>
+									<li><a href="#">Low to High</a></li>
+									<li><a href="#">High to Low</a></li>
+									<li><a href="#">A to Z</a></li>
+									<li><a href="#">Z to A</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row " id="main-page">
+						<div class="columns col-xs-12 col-sm-12 col-md-3 col-lg-3">
+							<div class="row">
+								<div class="columns col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="box-title-page"><h1>Women's</h1></div>
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="columns hidden-xs hidden-sm col-md-12 col-lg-12">
+									<div class="box-filter">
+										<div class="box-title">Filter</div>
+										<div class="box-choose">
+											<div class="dropdown" id="dropdown-gender">
+												<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Men or Women
+												</button>
+												<ul class="dropdown-menu">
+													<li><a href="#">Men</a></li>
+													<li><a href="#">Women</a></li>
+												</ul>
+											</div>
+											<div class="dropdown" id="dropdown-price">
+												<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Price
+
+												</button>
+												<ul class="dropdown-menu">
+
+													<li><a href="#">< $300</a></li>
+													<li><a href="#">from $300 to $500</a></li>
+													<li><a href="#">from $500 to $700</a></li>
+													<li><a href="#">from $700 to $1000</a></li>
+													<li><a href="#">> $1000</a></li>
+												</ul>
+											</div>
+											<div class="dropdown" id="dropdown-size">
+												<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Size
+
+												</button>
+												<ul class="dropdown-menu">
+													<li><a href="#">S</a></li>
+													<li><a href="#">M</a></li>
+													<li><a href="#">L</a></li>
+													<li><a href="#">XL</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="columns col-xs-12 col-sm-12 col-md-9 col-lg-9">
+							<div class="box-content">
+								<div class="row">
+									<div class="columns hidden-xs hidden-sm hidden-md col-lg-5"></div>
+									<div class="columns hidden-xs hidden-sm col-md-12 col-lg-7">
+										<ul class="pagination">
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="box-products">
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-1.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-2.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-3.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-4.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-5.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-6.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="detail.html">
+													<div class="cover-img">
+														<img src="../img/women-skirt-7.jpg" alt="">
+													</div>
+												</a>
+												<a href="">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/women-skirt-8.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-1.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-2.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-3.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-4.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-5.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-6.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-7.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+											<div class="cover-item">
+												<a href="">
+													<div class="cover-img">
+														<img src="../img/men-jacket-8.jpg" alt="">
+													</div>
+												</a>
+												<a href="detail.html">
+													<div class="cover-details">
+														<h4>Atmos&Here</h4>
+														<p>Scarlet Frill Crop Top</p>
+														<p>$39.95</p>
+														<p class="sale-off">30% OFF USE READY 30</p>
+														<a href=""><i class="wishlist icon fa fa-heart-o" aria-hidden="true"></i></a>
+														<a href=""><i class="view icon fa fa-search-plus" aria-hidden="true"></i></a>
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="columns hidden-xs hidden-sm hidden-md col-lg-5"></div>
+									<div class="col-sm-12 col-sm-12 col-md-12 col-lg-7">
+										<ul class="pagination">
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="info-catagory">
+										<h4>Women's Skirts</h4>
+										<p>Women’s skirts are the perfect way to shake up your silhouette this season. From mini skirts and skorts to lady-length hemlines, THE ICONIC has the perfect skirt for every shape, in materials from denim to leather. Accentuate curves with high-waisted skirts, flaunt your physique with figure hugging designs or opt for a billowing maxi skirt for everyday comfort and style.</p>
+										<p>Skirts offer a huge range of versatility, which has helped to make them a classic wardrobe staple. Pencil skirts can be teamed with a button-up blouse and ballet flats for office-friendly style, or teamed with a figure hugging evening top and statement stilettos to channel old-school feminine glam. Team a denim skirt with a striped tank and lace up sneakers for casual cool, or clash a statement top with a printed mini for the ultimate fashion forward look.</p>
+										<p>Skirts are a girl’s best friend, easily transforming from day-to-night simply by adding a fitted blazer, eye-catching jewellery or dancefloor ready heels. Whatever the occasion a well-fitting skirt is always on-trend.</p>
+										<p>The right skirt can help to highlight your best features and boost your confidence, making it a must in every woman’s wardrobe. Whether you prefer the boho charm of the classic maxi skirt, the retro cool of a pleated midi skirt or the modern mini skirt, THE ICONIC has the ideal skirt for your wardrobe.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer id="footer">
+			<section id="helps">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 column">
+							<h4>THE ICONIC</h4>
+							<ul>
+								<li><a href="">About Us</a></li>
+								<li><a href="">Affilliates</a></li>
+								<li><a href="">Press</a></li>
+								<li><a href="">Careers</a></li>
+								<li><a href="">Terms & Conditions</a></li>
+								<li><a href="">Privacy polivy</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 column">
+							<h4>THE ICONIC</h4>
+							<ul>
+								<li><a href="">FAQs & Contact</a></li>
+								<li><a href="">Delivery</a></li>
+								<li><a href="">Returns</a></li>
+								<li><a href="">Size Guide</a></li>
+								<li><a href="">Gift Cards</a></li>
+								<li><a href="">Fashion Glossary</a></li>
+								<li><a href="">Product Ideas</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 column">
+							<h4>THE ICONIC</h4>
+							<ul>
+								<li><a href="">Instagram</a></li>
+								<li><a href="">Facebook</a></li>
+								<li><a href="">Twitter</a></li>
+								<li><a href="">Pinterest</a></li>
+								<li><a href="">Google Plus</a></li>
+								<li><a href="">Youtube</a></li>
+							</ul>
+						</div>
+						<div class="hidden-xs hidden-sm hidden-md col-lg-2"></div>
+						<div class=" column stay-in-touch col-xs-12 col-sm-12 col-md-4  col-lg-4">
+							<h4>STAY IN TOUCH</h4>
+							<span>Subscribe to our newsletter and get a $20 voucher for your next purchase.</span>
+							<div class="box-email">
+								<div class="email">
+									<select>
+										<option>MEN</option>
+										<option>WOMEN</option>
+									</select>
+									<input type="email" name="email" placeholder="Enter your email ...">
+								</div>
+								<button>SUBMIT</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="top-brands">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="box-title">OUR TOP BRANDS</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							
+							<div class="column">
+								<ul>
+									<li><a href="">Academy Brand</a></li>
+									<li><a href="">adidas</a></li>
+									<li><a href="">Armani</a></li>
+									<li><a href="">Ben Sherman</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<ul>
+									<li><a href="">Birkenstock</a></li>
+									<li><a href="">Camillia</a></li>
+									<li><a href="">Camillia & Marc</a></li>
+									<li><a href="">Cameo</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<ul>
+									<li><a href="">Academy Brand</a></li>
+									<li><a href="">adidas</a></li>
+									<li><a href="">Armani</a></li>
+									<li><a href="">Ben Sherman</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<ul>
+									<li><a href="">Birkenstock</a></li>
+									<li><a href="">Camillia</a></li>
+									<li><a href="">Camillia & Marc</a></li>
+									<li><a href="">Cameo</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div class="column">
+								<ul>
+									<li><a href="">Academy Brand</a></li>
+									<li><a href="">adidas</a></li>
+									<li><a href="">Armani</a></li>
+									<li><a href="">Ben Sherman</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<ul>
+									<li><a href="">Birkenstock</a></li>
+									<li><a href="">Camillia</a></li>
+									<li><a href="">Camillia & Marc</a></li>
+									<li><a href="">Cameo</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<ul>
+									<li><a href="">Academy Brand</a></li>
+									<li><a href="">adidas</a></li>
+									<li><a href="">Armani</a></li>
+									<li><a href="">Ben Sherman</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<ul>
+									<li><a href="">Birkenstock</a></li>
+									<li><a href="">Camillia</a></li>
+									<li><a href="">Camillia & Marc</a></li>
+									<li><a href="">Cameo</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</div>
+</body>
+</html>

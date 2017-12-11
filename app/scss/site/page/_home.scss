@@ -1,0 +1,250 @@
+#main-page {
+	#top-banner {
+		.container {
+			width: 100%;
+			margin: 0;
+			padding: 15px 17px;
+			@include breakpoint(phone){
+				padding: 0;
+			}
+			.column {
+				padding: 17px;
+			}
+			.banner {
+				padding: 0px;
+				@include breakpoint(phone){
+					padding: 0;
+				}
+				a{
+					.box {
+						position: relative;
+						height: 512px;
+						&:hover {
+							.cover-img {
+								opacity: 0.7;
+							}
+							button {
+								opacity: 1;
+								background-color: #000;
+								color: #fff;
+							}
+						}
+						.cover-img {
+							width: 100%;
+							img {
+								width: 100%;
+								height: 512px;
+							}
+						}
+						button {
+							width: 322px;
+							height: 62px;
+							position: absolute;
+							bottom: 50px;
+							left: 50%;
+							margin-left: -161px;
+							border: none;
+							border-radius: 2px;
+							font-size: 22px;
+							font-family: $proxima-Nova;
+							color: #fff;
+							background-color: #000;
+							opacity: 0.5;
+						}
+						.btn-women {
+							@include breakpoint(phone){
+								bottom: 130px;
+							}
+						}
+						
+					}
+				}
+			}
+			.banner-phone {
+				padding: 0px;
+				@include breakpoint(phone){
+					padding: 0;
+				}
+				
+				.box {
+					position: relative;
+					height: 512px;
+
+					.cover-img {
+						width: 100%;
+						img {
+							width: 100%;
+							height: 512px;
+						}
+					}
+					button {
+						width: 322px;
+						height: 62px;
+						position: absolute;
+						bottom: 50px;
+						left: 50%;
+						margin-left: -161px;
+						border: none;
+						border-radius: 2px;
+						font-size: 22px;
+						font-family: $proxima-Nova;
+						color: #fff;
+						background-color: #000;
+						opacity: 0.5;
+						&:hover {
+							opacity: 1;
+							background-color: #000;
+							color: #fff;
+						}
+					}
+					.btn-women {
+						@include breakpoint(phone){
+							bottom: 130px;
+						}
+					}
+
+					
+				}
+			}
+		}
+		
+	}
+	#specials {
+		.container {
+			width: 100%;
+			padding: 0 17px;
+			margin: 0;
+			@include breakpoint(phone){
+				padding: 17px 8px;
+			}
+			.special-box {
+				padding: 0 17px;
+				@include breakpoint(phone){
+					padding: 0 8px;
+				}
+				&:hover {
+					opacity: 0.7;
+				}
+				a {
+					text-decoration: none;
+					.cover-img {
+						width: 100%;
+						height: 490px;
+						position: relative;
+						img {
+							width: 100%;
+							height: 100%;
+						}
+					}
+					.detail {
+						height: 110px;
+						text-align: center;
+						border-bottom: 1px solid lightgray;
+						.description {
+							height: 60px;
+							font-size: 14px;
+							padding-top: 46px;
+							color: #000;
+
+						}
+						.view {
+							height: 50px;
+							font-size: 14px;
+							padding: 18px;
+							color: #000;
+						}
+					}
+					.overlay-btn {
+						width: 360px;
+						height: 56px;
+						position: absolute;
+						bottom: 80px;
+						left: 50%;
+						margin-left: -180px;
+						border: none;
+						background: #fff;
+						color: #000;
+						font-size: 28px;
+						font-family: $proxima-Nova-Light;
+
+					}
+				}
+			}
+		}
+	}
+	#brands {
+		.container {
+			width: 100%;
+			padding: 0 17px;
+			margin: 0;
+			text-align: center;
+			.title {
+				height: 50px;
+				text-align: center;
+				font-family: $proxima-Nova-Light;
+				font-size: 30px;
+				padding: 10px;
+
+			}
+			.column {
+				padding: 17px;
+
+				.box-content {
+					.brand {
+						height: 100px;
+						width: 100%;
+
+						img{
+							width: 100px;
+							height: 70px;
+						}
+					}
+				}
+			}
+			a {
+				text-decoration: underline;
+				color: #000;
+				.view-all-btn {
+					padding: 10px;
+					font-family: $proxima-Nova-Light;
+					font-size: 14px;
+
+				}
+			}
+			
+			
+		}
+	}
+	#info-shop {
+		.container {
+			width: 100%;
+			padding: 0 17px;
+			margin: 0;
+			text-align: center;
+			h2 {
+				font-family: $proxima-Nova-Light;
+				font-size: 30px;
+				line-height: 50px;
+
+				a{
+					font-family: $proxima-Nova-Light;
+					color: #000;
+					text-decoration: underline;
+				}
+
+			}
+			p{
+				font-family: $proxima-Nova-Light;
+				font-size: 16px;
+				line-height: 20px;
+				padding: 10px 0 ;
+				a{
+					color: #000;
+					text-decoration: underline;
+				}
+
+			}
+		}
+	}
+	
+}

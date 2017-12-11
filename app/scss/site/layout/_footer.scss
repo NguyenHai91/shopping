@@ -1,0 +1,143 @@
+#footer {
+	#helps {
+		background-color: #1A1A1A;
+		.container {
+			width: 100%;
+			padding: 20px 10px;
+			margin: 0;
+			.column {
+				h4 {
+					font-family: $proxima-Nova-Bold;
+					font-size: 12px;
+					line-height: 20px;
+					margin-top: 4px;
+					margin-bottom: 12px;
+					color: #fff;
+				}
+				ul {
+					li{
+						margin: 7px 0;
+						a{
+							font-family: $proxima-Nova;
+							font-size: 12px;
+							line-height: 20px;
+							color: #fff;
+						}
+					}
+				}
+			}
+			.stay-in-touch {
+				padding: 0;
+				span {
+					font-family: $proxima-Nova;
+					font-size: 12px;
+					margin: 0px 0px;
+					color: #fff;
+
+				}
+				.box-email {
+					margin: 10px 0;
+					.email {
+						height: 40px;
+						float: left;
+						border: 1px solid gray;
+						border-radius: 2px;
+						background-color: #fff;
+						select {
+							font-family: $proxima-Nova-Bold;
+							font-size: 12px;
+							width: 90px;
+							height: 38px;
+							border-radius: 0;
+							font-size: 14px;
+							font-weight: bold;
+							border: none;
+							outline: none;
+							
+						}
+						input {
+							font-family: $proxima-Nova;
+							font-size: 12px;
+							height: 30px;
+							border: none;
+							border-left: 1px solid gray;
+							outline: none;
+							padding: 5px;
+							@include breakpoint(large-screen){
+								width: 210px;
+							}
+							@include breakpoint(mid-screen){
+								width: 250px;
+							}
+							@include breakpoint(tablet){
+								width: 300px;
+							}
+							@include breakpoint(phone){
+								width: 300px;
+							}
+							
+						}
+
+					}
+					button {
+						font-family: $proxima-Nova-Bold;
+						font-size: 12px;
+						float: right;
+						height: 40px;
+						width: 100px;
+						background-color: #C8C8C8;
+						color: #fff;
+						border-radius: 2px;
+						border: 1px solid #C8C8C8;
+					}
+				}
+
+			}
+		}
+	}
+	#top-brands {
+		background-color: #1A1A1A;
+
+		.container {
+			width: 100%;
+			padding: 20px 10px;
+			margin: 0;
+
+			.box-title {
+				font-family: $proxima-Nova-Bold;
+				font-size: 12px;
+				color: #fff;
+				margin: 10px 0;
+				padding-top: 10px;
+				border-top: 1px solid #fff;
+			}
+			.column {
+				
+				@include breakpoint (large-screen){
+					width: 25%;
+				}
+				@include breakpoint (mid-screen){
+					width: 25%;
+				}
+				@include breakpoint (tablet){
+					width: 25%;
+				}
+				@include breakpoint (phone){
+					width: 50%;
+				}
+				display: block;
+				float: left;
+				ul{
+					li{
+						margin: 7px;
+						a{
+							font-family: $proxima-Nova;
+							color: #fff;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
